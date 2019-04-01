@@ -15,4 +15,5 @@ A project for writing tests that verify that a Calculator class is functioning p
     - Make a commit after each test is written
     - Run the tests to watch them fail (since the Calculator's methods haven't been written yet)
 7. Submit a pull request to merge your changes to the `master` branch
-8. **Bonus:** Implement the methods of the Calculator class so that the tests pass
+
+**Bonus:** Implement the methods of the Calculator class so that the tests pass
