@@ -36,7 +36,7 @@ namespace CalculatorWithTests.tests
         [InlineData(100, 50, 5000)]
         [InlineData(45.5, 65, 2957.5)]
         [InlineData(0, -1, 0)]
-        public void ShouldMultipyTest(double multiplynumber1, double multiplynumber2, double expectednumber)
+        public void MultipyTest(double multiplynumber1, double multiplynumber2, double expectednumber)
         {
             Calculator challenger = new Calculator();
 
@@ -49,7 +49,7 @@ namespace CalculatorWithTests.tests
         [InlineData(100, 50, 2)]
         [InlineData(45.5, 65, .7)]
         [InlineData(0, -1, 0)]
-        public void ShouldDivideTest(double dividenumber1, double dividenumber2, double expectednumber)
+        public void DivideTest(double dividenumber1, double dividenumber2, double expectednumber)
         {
             Calculator challenger = new Calculator();
 
@@ -62,7 +62,7 @@ namespace CalculatorWithTests.tests
         [InlineData(10, 3628800)]
         [InlineData(4, 24)]
         [InlineData(0, 0)]
-        public void ShouldfactorialTest(double factor1, double expectednumber)
+        public void FactorialTest(double factor1, double expectednumber)
         {
             Calculator challenger = new Calculator();
 
